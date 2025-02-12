@@ -57,12 +57,28 @@ footer p {
 
 /* ======= MAIN LAYOUT INTRO ======= */
 .main-content {
-    max-width: 900px; 
-    margin: 40px auto; 
+    max-width: 900px;
+    margin: 40px auto;
     padding: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Dùng flexbox để căn ảnh & nội dung */
+    align-items: stretch; /* Ảnh và nội dung có cùng chiều cao */
+    gap: 20px; /* Khoảng cách giữa ảnh và nội dung */
+}
+/* ======= ẢNH BÊN TRÁI ======= */
+.main-image {
+    width: 250px; /* Độ rộng cố định */
+    object-fit: cover; /* Giữ tỷ lệ ảnh, cắt bớt phần dư */
+}
+
+/* ======= CONTENT BÊN PHẢI (CÁC SECTION) ======= */
+.main-text {
+    flex: 1; /* Chiếm hết phần còn lại */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Căn đều các section */
 }
 
 /* ======= SECTION STYLE INTRO ======= */
