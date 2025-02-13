@@ -1,0 +1,102 @@
+/* Reset mặc định cho trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======= HEADER ======= */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* ======= MAIN LAYOUT INTRO ======= */
+.main-content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Dùng flexbox để căn ảnh & nội dung */
+    align-items: stretch; /* Ảnh và nội dung có cùng chiều cao */
+    gap: 20px; /* Khoảng cách giữa ảnh và nội dung */
+}
+/* ======= ẢNH BÊN TRÁI ======= */
+.main-image {
+    width: 250px; /* Độ rộng cố định */
+    object-fit: cover; /* Giữ tỷ lệ ảnh, cắt bớt phần dư */
+}
+
+/* ======= CONTENT BÊN PHẢI (CÁC SECTION) ======= */
+.main-text {
+    flex: 1; /* Chiếm hết phần còn lại */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Căn đều các section */
+}
+
+/* ======= SECTION STYLE INTRO ======= */
+.main-section {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-section h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.main-section p {
+    line-height: 1.6;
+    color: #333;
+}
