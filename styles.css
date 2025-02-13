@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
 }
 
 body {
@@ -98,5 +108,123 @@ footer p {
 
 .main-section p {
     line-height: 1.6;
-    color: #333;
+    color: #333;   -webkit-animation: alternate ;
+}
+
+
+/* =================== Index =================== */
+/* ======= Index-Intro ======= */
+.background-index-intro-1{
+    width: 100%;
+    background-image: linear-gradient(225deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+    margin-bottom: 15px;
+}
+.background-index-intro-2{
+    width: 80%;
+    margin: auto;
+}
+.index-content-intro{
+    justify-items: center;
+}
+.index-content-intro-detail{
+    display: flex;
+}
+.ICID{
+    flex: 1;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    margin: 8px 8px 15px 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.ICID h4{
+    padding: 5px 0 5px 0;
+}
+
+.line{
+    width: 60%;
+    border: #afafaf solid 2px;
+    border-radius: 10px;
+    margin: auto; 
+}
+/* ======= Index-Advantage ======= */
+.background-advantage{
+    width: 80%;
+    margin: auto;
+}
+.index-conter-advantage{
+    /* background-color: rgba(127, 255, 255, 0.995); */
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.index-conter-advantage-head{
+    justify-items: center;
+    margin: 8px;
+}
+.index-conter-advantage-content{
+    display: flex;
+}
+.ICAC-1{
+    flex: 1.5;
+}
+.ICAC-2{
+    flex: 1;
+}
+.ICAC-3{
+    flex: 1.5;
+}
+.ICAC-2 img{
+    height: 55vh;
+    margin: 0 0 -2.5% 10%;
+}
+.ICAC-1-box{
+    text-align: end;
+    margin: 10px;
+}
+.ICAC-3-box{
+    text-align: start;
+    margin: 10px;
+}   
+
+/* ======= Index-Service ======= */
+.background-service-1{
+    width: 100%;
+    background-image: linear-gradient(-45deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.background-service-2{
+    width: 80%;
+    margin: auto;
+}
+.index-content-service{
+    border-radius: 10px;
+}
+.index-content-service-head{
+    justify-items: center;
+    margin-top: 15px ;
+}
+.index-content-service-content{
+    display: flex;
+    flex-wrap: wrap; /* Xuống hàng khi đủ 3 khối */
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.ICSC-box{
+    width: calc(33.33% - 20px); /* Chia thành 3 phần bằng nhau */
+    background-color: #fff;
+    text-align: center;
+    border-radius: 25px;
+}
+.ICSC-box img{
+    width: 100%
+}
+.ICSC-box h3{
+    margin-bottom: 20px;
+    border-bottom: #333 1px solid;
+}
+.ICSC-box li{
+    margin: 20px;
 }
