@@ -58,7 +58,6 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
 }
 
 footer p {
@@ -118,6 +117,7 @@ footer p {
     width: 100%;
     background-image: linear-gradient(225deg, rgba(127, 255, 255, 0.995), #f5f6f7);
     margin-bottom: 15px;
+    padding: 30px 0 40px 0;
 }
 .background-index-intro-2{
     width: 80%;
@@ -142,7 +142,7 @@ footer p {
 }
 
 .line{
-    width: 60%;
+    width: 50%;
     border: #afafaf solid 2px;
     border-radius: 10px;
     margin: auto; 
@@ -151,16 +151,16 @@ footer p {
 .background-advantage{
     width: 80%;
     margin: auto;
+    padding: 30px 0 40px 0;
 }
 .index-conter-advantage{
-    /* background-color: rgba(127, 255, 255, 0.995); */
     background-color: #f8f9fa;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 .index-conter-advantage-head{
     justify-items: center;
-    margin: 8px;
+    margin: 8px 8px 20px 8px;
 }
 .index-conter-advantage-content{
     display: flex;
@@ -191,6 +191,8 @@ footer p {
 .background-service-1{
     width: 100%;
     background-image: linear-gradient(-45deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+    padding: 30px 0 40px 0;
+    margin: 15px 0 15px 0;
 }
 .background-service-2{
     width: 80%;
@@ -201,7 +203,7 @@ footer p {
 }
 .index-content-service-head{
     justify-items: center;
-    margin-top: 15px ;
+    margin: 8px 8px 20px 8px;
 }
 .index-content-service-content{
     display: flex;
@@ -219,7 +221,9 @@ footer p {
     border-radius: 25px;
 }
 .ICSC-box img{
-    width: 100%
+    width: 100%;
+    height: 40vh;
+    border-radius: 25px;
 }
 .ICSC-box h3{
     margin-bottom: 20px;
@@ -227,4 +231,90 @@ footer p {
 }
 .ICSC-box li{
     margin: 20px;
+}
+
+/* ======= Index-Procedure ======= */
+.background-procedure-1{
+    margin: 25px 0 15px 0;
+}
+.background-procedure-2{
+    width: 80%;
+    margin: auto;
+}
+.index-procedure-head{
+    justify-items: center;
+    margin: 8px 8px 20px 8px;
+}
+.index-procedure-content{
+    justify-items: center;
+    margin: 10px;
+}
+.IPC-box{
+    width: 40vw;
+    margin: 30px;
+    border: #383838 dashed 2px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-radius: 60px;
+    
+}
+.IPC-box h4{
+    text-align: center;
+}
+.IPC-box li{
+    text-align: center;
+}
+.IPC-box#box-1{
+    background-image: linear-gradient(90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.IPC-box#box-2{
+    background-image: linear-gradient(-90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.IPC-box#box-3{
+    background-image: linear-gradient(90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.IPC-box#box-4{
+    background-image: linear-gradient(-90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.IPC-box#box-5{
+    background-image: linear-gradient(90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+.IPC-box#box-6{
+    background-image: linear-gradient(-90deg, rgba(127, 255, 255, 0.995), #f5f6f7);
+}
+
+/* ======= Index-Tips ======= */
+.background-tips-1{
+    margin: 25px 0 0px 0;
+    padding: 0 0 10px 0;
+    background-image: linear-gradient(0deg, rgba(127, 255, 255, 0.995), #f8f9fa);
+}
+.background-tips-2{
+    width: 80%;
+    margin: auto;
+}
+.index-tips-head{
+    text-align: center;
+}
+.index-tips-content{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.ITC-box{
+    width: 15vw;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    max-height: auto;
+}
+.ITC-box img{
+    border-radius: 10px 10px 5px 5px;
+    height: 20vh;
+    width: 100%;
+
 }
