@@ -329,5 +329,59 @@ footer p {
     border-radius: 10px 10px 5px 5px;
     height: 20vh;
     width: 100%;
+}
+
+/* =================== Book =================== */
+.background-book{
+    width: 80%;
+    margin: auto;
+}
+.book-head{
+    text-align: center;
+    margin: 8px 0 15px 0;
+}
+.book-content{
+    display: flex;
+    justify-content: center;
+}
+.book-content-left{
+    width: 40%;
+}
+.BC-box{
+    margin: 10px;
+}
+.BC-box h3{
+    padding-left: 5px;
+}
+.book-content-left input{
+    width: 90%;
+    height: 4vh;
+    border-radius: 5px;
+    padding: 8px;
+}
+.book-content-right{
+    width: 60%;
+    text-align: center;
+}
+.book-content-right img{
+    width: 100%;
+    height: 100%;
+}
+.BC-button{
+    width: 100%;
+    justify-items: end;
+    padding: 4% 15% 4% ;
 
 }
+#BC-button{
+    width: 35%;
+    background-color: aqua;
+    line-height: 7vh;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* #BC-button h3{
+    align-items: center;
+} */
+
