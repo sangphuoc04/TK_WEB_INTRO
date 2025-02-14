@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giặt Sấy TK</title>
+    <link rel="icon" type="imahe/x-icon" href="img/TKremove.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- Kết nối file CSS riêng -->
+    <script>
+        function loadLayout(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                });
+        }
+    </script>
+</head>
+<body onload="loadLayout('header', 'header.html'); loadLayout('footer', 'footer.html');">
+
+    <div id="header"></div> <!-- Header sẽ được chèn vào đây -->
+    <div class="line"></div>
+    <section class="content-section">
+        <div class="left-content">
+            <a href="https://www.google.com/maps/place/Gi%E1%BA%B7t+S%E1%BA%A5y+TK/@10.0173023,105.7348717,17z/data=!4m14!1m7!3m6!1s0x31a08927b296192d:0xa843ca0f41567d6d!2zR2nhurd0IFPhuqV5IFRL!8m2!3d10.0173023!4d105.7374466!16s%2Fg%2F11sshlnybp!3m5!1s0x31a08927b296192d:0xa843ca0f41567d6d!8m2!3d10.0173023!4d105.7374466!16s%2Fg%2F11sshlnybp?entry=ttu&g_ep=EgoyMDI1MDIxMS4wIKXMDSoASAFQAw%3D%3D" class="service-button">Tìm địa chỉ của TK</a>
+            <a href="facebook.com" class="service-button">Liên hệ TK qua Facebook</a>
+            <a href="https://chat.zalo.me/" class="service-button">Liên hệ TK qua zalo</a>
+            <p>Địa chỉ: 28 Đ. Xuân Hồng, An Bình, Bình Thủy, Cần Thơ 90000, Việt Nam</p>
+            <p>Hotline: 0123 456 789</p>
+        </div>
+        <div class="right-content">
+            <img src="img/contact.png" alt="Giat say tk">
+        </div>
+    </section>
+    <div class="background-service-1">
+        <div class="background-service-2">
+            <div class="index-content-service">
+                <div class="index-content-service-content">
+                    <div class="ICSC-box1">
+                        <h4>Hotline</h4>
+                        <p>0123 456 789</p>
+                    </div>
+            
+                    <div class="ICSC-box1">
+                        <h4>Địa chỉ</h4>
+                        <p><a href="#">Địa chỉ: 28 Đ. Xuân Hồng, An Bình, Bình Thủy, Cần Thơ 90000, Việt Nam</a></p>
+                    </div>
+        
+                    <div class="ICSC-box1">
+                        <h4>Giờ làm việc</h4>
+                        <p>Thứ 2 – Chủ Nhật : 08:00 – 22:00</p>
+                    </div>
+                    <div class="ICSC-box1">
+                        <h4>Email</h4>
+                        <p>giatsayTk@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div> <!-- Footer sẽ được chèn vào đây -->
+
+</body>
+</html>
