@@ -112,6 +112,19 @@ footer p {
 
 
 /* =================== Index =================== */
+/* ======= Index-Slide ======= */
+.background-Slide{
+    width: 100%;
+    height: 100vh;
+}
+.index-slide{
+    width: 100%;
+    height: 100vh;
+}
+.index-slide img{
+    width: 100%;
+    height: 100%;
+}
 /* ======= Index-Intro ======= */
 .background-index-intro-1{
     width: 100%;
